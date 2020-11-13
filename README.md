@@ -53,6 +53,8 @@ Should correctly return the users life expectancy on Mars | 12 | 24
 
 Should correctly return the users life expectancy on Jupiter | 12 | 60
 
+Should correctly respond that a person is dead if they are over 100 | "Sorry, you are dust"
+
 
 ## Technologies Used
 
