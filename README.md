@@ -43,6 +43,8 @@ Should correctly return the users age in Mercury years | 12 | 50
 Should correctly return the users age in Venus years | 12 | 19.35483870967742
 
 Should correctly return the users age in Mars Years | 12 | 6.3829787234
+
+Should correctly return the users age in Jupiter Years | 12 | 1.01010101010101
 ## Technologies Used
 
 * NPM
