@@ -5,6 +5,10 @@ describe ('UserAge', () => {
   test('should correctly identify a users age', () => {
     const userage = new UserAge(12)
     expect(userage.age).toEqual(12);
+  });
+  test('should return the users age in Mercury years', () => {
+    const newuser = new UserAge(12)
+    expect(newuser.mercury).toEqual(50);
   })
 })
 /*
