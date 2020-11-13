@@ -13,6 +13,7 @@ export class LifeExp {
   this.age = age;
   this.mercuryexp = age * 1/2;
   this.venusexp = age * 3/4;
+  this.marsexp = age * 2;
   }
 }
 
