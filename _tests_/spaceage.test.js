@@ -12,7 +12,7 @@ describe ('UserAge', () => {
   });
     test('should return the users age in Venus Years', () => {
     const newuser = new UserAge(12)
-    expect(newuser.venus).toEqual(19)
+    expect(newuser.venus).toEqual(19.35483870967742)
   })
 })
 /*

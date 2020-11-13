@@ -40,7 +40,7 @@ Should correctly identify a users age | 12 | 12
 Should correctly return the users age in Mercury years | 12 | 50
 
 
-Should correctly return the users age in Venus years | 12 | 19
+Should correctly return the users age in Venus years | 12 | 19.35483870967742
 ## Technologies Used
 
 * NPM
