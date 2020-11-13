@@ -23,7 +23,8 @@ UserAge.prototype.deadExpectancy = function () {
   if (this.age === 0) {
     return "You are not alive!"
   } else if (this.age >= 100) {
-    return "You have become dust"
+      return this.age - 100
+    }
   }
-}
+
 
