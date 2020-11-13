@@ -16,7 +16,7 @@ describe ('UserAge', () => {
   })
     test('should return the users age in Mars Years', () => {
     const newuser = new UserAge(12)
-    expec(newuser.mars).toEqual(6.3829787234)
+    expect(newuser.mars).toEqual(6.3829787234)
     })
 })
 /*
