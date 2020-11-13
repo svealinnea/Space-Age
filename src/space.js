@@ -9,6 +9,7 @@ this.jupiter = age / 11.88;
 export function LifeExp(age) {
   this.age = age;
   this.mercuryexp = age * 1/2;
+  this.venusexp = age * 3/4;
 }
 
 
