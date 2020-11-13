@@ -21,6 +21,10 @@ describe ('UserAge', () => {
     test('should return the users age in Jupiter Years', () => {
     const newuser = new UserAge(12)
     expect(newuser.jupiter).toEqual(1.01010101010101)
+    });
+    test ('Should correctly respond that a person is dead if their age is over 100', () => {
+    const newuser = new UserAge(0)
+    expect(newuser.deadExpectancy()).toMatch("You are not alive!")
     })
 })
 /*

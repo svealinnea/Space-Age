@@ -1,3 +1,5 @@
+import { prototype } from "html-webpack-plugin";
+
 export class UserAge {
   constructor(age) {
 this.age = age;
@@ -17,5 +19,7 @@ export class LifeExp {
   this.jupiterexp = age * 5;
   }
 }
-
+UserAge.prototype.deadExpectancy = function () {
+  
+}
 
