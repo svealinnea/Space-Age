@@ -47,7 +47,7 @@ Should correctly return the users age in Jupiter Years | 12 | 1.01010101010101
 
 Should correctly return the users life expectancy on Mercury | 12 | 6
 
-Should correctly return the users life expectancy on Venus 12 | 9.6
+Should correctly return the users life expectancy on Venus 12 | 9
 ## Technologies Used
 
 * NPM
