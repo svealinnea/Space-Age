@@ -6,4 +6,8 @@ this.mars = age / 1.88;
 this.jupiter = age / 11.88;
 }
 
+export function LifeExp(age) {
+  this.age = age;
+}
+
 
