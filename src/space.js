@@ -1,5 +1,6 @@
 export function UserAge(age){
 this.age = age;
+this.mercury = age / .24;
 }
 
 // function mercury (age, planet) {
