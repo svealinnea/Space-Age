@@ -20,6 +20,8 @@ export class LifeExp {
   }
 }
 UserAge.prototype.deadExpectancy = function () {
-  
+  if (this.age === 0) {
+    return "You are not alive!"
+  } 
 }
 
