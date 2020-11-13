@@ -10,6 +10,7 @@ Returns their age in Mercury years.
 Returns their age in Venus years. 
 Returns their age in Mars years. 
 Returns their age in Jupiter years. 
+Returns their life expectancy on each planet. Each planets life expectancy is around 100 of their planet years. 
 
 ## Setup/Installation Requirements
 
@@ -46,7 +47,7 @@ Should correctly return the users age in Jupiter Years | 12 | 1.01010101010101
 
 Should correctly return the users life expectancy on Mercury | 12 | 6
 
-
+Should correctly return the users life expectancy on Venus 12 | 9.6
 ## Technologies Used
 
 * NPM
