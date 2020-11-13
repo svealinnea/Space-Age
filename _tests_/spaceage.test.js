@@ -13,10 +13,14 @@ describe ('UserAge', () => {
     test('should return the users age in Venus Years', () => {
     const newuser = new UserAge(12)
     expect(newuser.venus).toEqual(19.35483870967742)
-  })
+  });
     test('should return the users age in Mars Years', () => {
     const newuser = new UserAge(12)
-    expect(newuser.mars).toEqual(6.3829787234)
+    expect(newuser.mars).toEqual(6.382978723404256)
+  });
+    test('should return the users age in Jupiter Years', () => {
+    const newuser = new UserAge(12)
+    expect(newuser.jupiter).toEqual(1.01010101010101)
     })
 })
 /*
