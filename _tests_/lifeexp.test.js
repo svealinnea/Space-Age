@@ -12,5 +12,9 @@ describe ('LifeExp', () => {
     test('Should correctly return the users life expectancy on Mars', () => {
       const newlife = new LifeExp(12)
       expect(newlife.marsexp).toEqual(24)
-    })
+    });
+      test('Should correctly return the users life expectancy on Jupiter', () => {
+      const newlife = new LifeExp(12)
+      expect(newlife.jupiterexp).toEqual(60)
+    });
 })
