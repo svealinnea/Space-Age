@@ -14,6 +14,10 @@ describe ('UserAge', () => {
     const newuser = new UserAge(12)
     expect(newuser.venus).toEqual(19.35483870967742)
   })
+    test('should return the users age in Mars Years', () => {
+    const newuser = new UserAge(12)
+    expec(newuser.mars).toEqual(6.3829787234)
+    })
 })
 /*
 1. needs to return the users age in Earth Years
