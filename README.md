@@ -21,8 +21,8 @@ Here are some instructions on how to do so:
 3. After it downloads you will need to open the document labeled “ "
 4. You will then need to clone it on your computer git Clone https://github.com/svealinnea/Space-Age.git 
 5. After you clone it you will need to open it in your preferred code editor
-6. Last step is to open it into a browser! I recommend using Chrome.
-
+6. You can type npm install into the terminal to get npm to install
+7. Then you will want to type npm run start and it will open a live server. From there you can see the website in your browser.
 
 ## Known Bugs
 
@@ -53,7 +53,9 @@ Should correctly return the users life expectancy on Mars | 12 | 24
 
 Should correctly return the users life expectancy on Jupiter | 12 | 60
 
-Should correctly respond that a person is dead if they are over 100 | "Sorry, you are dust"
+Should corerctly respond that a person is not alive if they are 0 | 0 | "You are not alive!"
+
+Should correctly respond that a person is dead if they are over 100 | "You have become dust"
 
 
 ## Technologies Used

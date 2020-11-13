@@ -23,9 +23,13 @@ describe ('UserAge', () => {
     expect(newuser.jupiter).toEqual(1.01010101010101)
     });
     test ('Should correctly respond that a person is dead if their age is over 100', () => {
-    const newuser = new UserAge(0)
-    expect(newuser.deadExpectancy()).toMatch("You are not alive!")
+    const newuser = new UserAge(100)
+    expect(newuser.deadExpectancy()).toMatch("You have become dust")
     })
+    test ('Should correctly respond that a person is not alive if zero', () => {
+      const newuser = new UserAge(0)
+      expect(newuser.deadExpectancy()).toMatch("You are not alive!")
+      })
 })
 /*
 1. needs to return the users age in Earth Years
