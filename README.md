@@ -55,7 +55,7 @@ Should correctly return the users life expectancy on Jupiter | 12 | 60
 
 Should corerctly respond that a person is not alive if they are 0 | 0 | "You are not alive!"
 
-Should correctly respond that a person is dead if they are over 100 | "You have become dust"
+Should correctly respond the amount of years someone is over the expectancy if they are | 101 | 1
 
 
 ## Technologies Used
