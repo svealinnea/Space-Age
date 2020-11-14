@@ -14,7 +14,6 @@ body {
   border-radius: 40%;
   color: black;
   margin: 10px;
-  align-items: center;
 }
 form{
   background-color: rgba(128, 128, 128, 0.548);
@@ -26,4 +25,23 @@ h1 {
 #input {
   margin-left: 43%;
   position: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+#responses {
+  text-align:center;
+}
+#mars {
+  display: none;
+}
+#jupiter {
+  display: none;
+}
+#mercury {
+  display: none;
+}
+#venus {
+  display: none;
 }
