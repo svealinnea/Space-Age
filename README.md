@@ -10,7 +10,7 @@ Returns their age in Mercury years.
 Returns their age in Venus years. 
 Returns their age in Mars years. 
 Returns their age in Jupiter years. 
-Returns their life expectancy on each planet. Each planets life expectancy is around 100 of their planet years. 
+Returns their life expectancy on each planet. Each planets life expectancy is different dependant upon the planet. 
 
 ## Setup/Installation Requirements
 
@@ -39,24 +39,15 @@ Should correctly identify a users age | 12 | 12
 
 Should correctly return the users age in Mercury years | 12 | 50
 
-Should correctly return the users age in Venus years | 12 | 19.35483870967742
+Should correctly return the users age in Venus years | 12 | 19
 
-Should correctly return the users age in Mars Years | 12 | 6.3829787234
+Should correctly return the users age in Mars Years | 12 | 6
 
-Should correctly return the users age in Jupiter Years | 12 | 1.01010101010101
+Should correctly return the users age in Jupiter Years | 12 | 1
 
-Should correctly return the users life expectancy on Mercury | 12 | 6
+Should correctly return a string of the users life expectancy on Mercury even if it is a negative number | 240 | Your life expectancy on Mercury is -760 more years!
 
-Should correctly return the users life expectancy on Venus | 12 | 9
-
-Should correctly return the users life expectancy on Mars | 12 | 24
-
-Should correctly return the users life expectancy on Jupiter | 12 | 60
-
-Should corerctly respond that a person is not alive if they are 0 | 0 | "You are not alive!"
-
-Should correctly respond the amount of years someone is over the expectancy if they are | 101 | 1
-
+Should correctly return a string of the users life expectancy on Venus | 100 | 
 
 ## Technologies Used
 
