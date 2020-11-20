@@ -12,30 +12,22 @@ describe ('UserAge', () => {
   });
     test('should return the users age in Venus Years', () => {
     const newuser = new UserAge(12)
-    expect(newuser.venus).toEqual(19.35483870967742)
+    expect(newuser.venus).toEqual(19)
   });
     test('should return the users age in Mars Years', () => {
     const newuser = new UserAge(12)
-    expect(newuser.mars).toEqual(6.382978723404256)
+    expect(newuser.mars).toEqual(6)
   });
     test('should return the users age in Jupiter Years', () => {
     const newuser = new UserAge(12)
-    expect(newuser.jupiter).toEqual(1.01010101010101)
+    expect(newuser.jupiter).toEqual(1)
+  });
+    test('should return the users life expectancy on Mercury even if it is negative', () => {
+    const newuser = new UserAge(240)
+    expect(newuser.mercuryExp()).toMatch('Your life expectancy on Mercury is -760 more years!')
     });
-    test ('Should correctly respond that a person is not alive if zero', () => {
-      const newuser = new UserAge(0)
-      expect(newuser.deadExpectancy()).toMatch("You are not alive!")
-      });
-      test ('Should let the user know how much away from life expectancy they are if they are over 100', () => {
-        const newuser = new UserAge(100)
-        expect(newuser.deadExpectancy()).toEqual(0)
-        })
-})
-/*
-1. needs to return the users age in Earth Years
-2. should return the users age in Mercury years (.24 Earth Years, 12%.24)
-3. should return the users age in Venus Years (.62 Earth Years 12%.62)
-4. should return the users age in Mars Years (1.88 Earth Years 12% 1.88)
-5. should return the users age in Jupiter Years (11.86 Earth Years 12 % 11.86) 
-
-*/
+    test('should return the users life expectancy on Venus', () => {
+    const newuser = new UserAge(100)
+    expect(newuser.venusExp()).toMatch('Your life expectancy on Venus is 459 more years')
+    })
+});
