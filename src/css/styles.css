@@ -33,15 +33,6 @@ h1 {
 #responses {
   text-align:center;
 }
-#mars {
-  display: none;
-}
-#jupiter {
-  display: none;
-}
-#mercury {
-  display: none;
-}
-#venus {
-  display: none;
+#responses { 
+  margin: 20px;
 }
