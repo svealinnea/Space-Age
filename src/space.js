@@ -10,6 +10,14 @@ mercury() {
   let mercuryAge = this.mercury;
   return mercuryAge
 }
+venus() {
+  let venusAge = this.venus;
+  return venusAge
+}
+mars() {
+  let marsAge = this.mars;
+  return marsAge
+}
 mercuryExp () {
   let lifeExp = 240;
   let mercuryLife = lifeExp - this.mercury;

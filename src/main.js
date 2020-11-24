@@ -9,7 +9,7 @@ $('#space').click(function () {
   let newAge = new UserAge(input);
   console.log(newAge);
   console.log(newAge.mercury)
-  mercury = newAge.mercury
+  //mercury = newAge.mercury
   // let answer = new UserAge(this.jupiter);
   // console.log(answer);
   $('#mercury').text()
