@@ -28,4 +28,9 @@ venusExp () {
   let venusLife = lifeExp - this.venus
   return `Your life expectancy on Venus is ${venusLife} more years!`
 }
+marsExp () { 
+  let lifeExp = 700;
+  let marsLife = lifeExp - this.mars
+  return `Your life expectancy on Mars is ${marsLife} more years`
+}
 } 
