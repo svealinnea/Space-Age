@@ -1,9 +1,10 @@
 # _Space Age Calculator_
 
-### _This will calculate a users space age, November 13, 2020_
+### _This will calculate a users space age, December 1, 2020_
 
 ### By 
 Svea Wade
+
 ### Description
 A user will enter their age and we will return their space age. 
 Returns their age in Mercury years. 
@@ -45,9 +46,9 @@ Should correctly return the users age in Mars Years | 12 | 6
 
 Should correctly return the users age in Jupiter Years | 12 | 1
 
-Should correctly return a string of the users life expectancy on Mercury even if it is a negative number | 240 | Your life expectancy on Mercury is -760 more years!
+Should correctly return a string of the users life expectancy on Mercury | 240 | "uh oh looks like you have overstayed your welcome by 760 years!"
 
-Should correctly return a string of the users life expectancy on Venus | 100 | 
+Should correctly return a string of the users life expectancy on Venus | 100 | "Your life expectancy on Venus is 459 more years"
 
 ## Technologies Used
 

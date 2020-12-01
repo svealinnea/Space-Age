@@ -22,12 +22,12 @@ describe ('UserAge', () => {
     const newuser = new UserAge(12)
     expect(newuser.jupiter).toEqual(1)
   });
-    test('should return the users life expectancy on Mercury even if it is negative', () => {
+    test('should return the users over life expectancy on Mercury', () => {
     const newuser = new UserAge(240)
-    expect(newuser.mercuryExp()).toMatch('Your life expectancy on Mercury is -760 more years!')
+    expect(newuser.mercuryExp()).toMatch('uh oh looks like you have overstayed your welcome by 760 years!')
     });
     test('should return the users life expectancy on Venus', () => {
     const newuser = new UserAge(100)
     expect(newuser.venusExp()).toMatch('Your life expectancy on Venus is 459 more years')
-    })
-});
+    });
+  });
